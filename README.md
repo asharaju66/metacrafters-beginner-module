@@ -59,20 +59,18 @@ In the "Deploy & Run Transactions" panel on the right-hand side of the Remix IDE
 Click on the "Deploy" button to deploy the smart contract.
 Once the contract is deployed, you will see the contract's details, including the contract address, in the "Deployed Contracts" section.
 
-Interact with the contract by invoking its functions:
+Interact with the contract:
 
-a. Set the token name and abbreviation by accessing the public variables tokenname and tokenAbbriv.
+a. Click on the Tokenname and tokenAbbriv to get the name of the token you have set and its abbrivation.
 
-b. Check the initial total token supply by accessing the public variable totalSupply.
+b. Also click on the totalSupply to display the initial supply of your token.
 
-c. Mint new tokens by calling the mint function and providing an address and a value as parameters. This function increases the total supply by the specified value and increases the balance of the given address by that amount.
+c. Mint new tokens by calling the mint function and providing an address and a value as parameters. This function adds the specified number of token to your account.
 
-d. Burn tokens by calling the burn function and providing an address and a value as parameters. This function decreases the total supply by the specified value and deducts that value from the balance of the given address. Note that the burn operation will only be executed if the balance of the address is greater than or equal to the amount to be burned.
+d. Burn tokens by calling the burn function and providing an address and a value as parameters. This function reduces the total supply of token by burning the specified number of tokens from the account.
 
 e. View token balances by accessing the balances mapping and providing an address as the key.
 
-Use the Remix IDE's transaction panel to interact with the contract and observe the changes in state variables and balances.
-Monitor the output in the Remix IDE's console to check for any transaction events, errors, or log messages generated during the execution of the contract functions.
 
 ## Authors
 
